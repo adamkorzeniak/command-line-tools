@@ -1,0 +1,17 @@
+spring:
+  shell:
+    command:
+      script:
+        enabled: false
+      stacktrace:
+        enabled: true
+
+sql:
+  file:
+    location: C:\Users\adam.korzeniak\Desktop\files\data\sql.txt
+
+parser:
+  file:
+    location:
+      input: C:\Users\adam.korzeniak\Desktop\files\data\input.json
+      output: C:\Users\adam.korzeniak\Desktop\files\data\output.json
